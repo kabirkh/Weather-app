@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>Weather</title>
+    <link rel="icon" href="/images/weather.png">
+    <link rel="stylesheet" href="./css/style.css" />
+    
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+
+        {{!-- <img src="/images/back.jpg" alt="Background image" class="back-image"> --}}
+
+        <p>Enter location's name or it's pincode</p>
+
+        <form action="">
+            <input type="text" placeholder="Enter Location">
+            <button>Search</button>
+        </form>
+        
+        <div class="data-display">
+            <p id="time"></p>
+            <p id="name"></p>
+            <p id="error-msg"></p>
+            <p id="weather-cond"></p>
+            <p id="temp"></p>
+            <p id="humidity"></p>
+            <p id="wind-speed"></p>
+        </div>
+
+    </div>
+
+    {{>footer}}
+
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>
+
