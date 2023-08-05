@@ -1,2 +1,2 @@
 # Weather-app
-Link: https://weather-app-kabirkh.onrender.com/
+Deploy link: https://weather-app-kabirkh.onrender.com/
