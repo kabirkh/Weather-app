@@ -1,12 +1,13 @@
-body {
+body{
     color: #333333;
     font-family: arial;
     max-width: 650px;
-    margin: 0 auto;
+    margin: 0% 20% 0% 22%;
     padding: 0 16px;
     display: flex;
     flex-direction: column;
     min-height: 100vh
+    
 }
 .main-content {
     flex-grow: 1;
@@ -31,12 +32,12 @@ h1 {
 
 header a {
     color: #888888;
-    margin-right: 16px;
+    margin: 0px 1px 0px 8px;
     text-decoration: none;
 }
-
-.portrait {
-    width: 250px;
+p a{
+    margin-right: 5px;
+    margin-left: 10px;
 }
 
 input{
@@ -46,7 +47,7 @@ input{
 button{
     cursor: pointer;
     border: 1px solid #888888;
-    background: #888888;
+    background: rgb(12, 196, 116);
     color: white;
     padding:8px;
 }

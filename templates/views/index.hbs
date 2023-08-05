@@ -4,6 +4,7 @@
     <title>Weather</title>
     <link rel="icon" href="/images/weather.png">
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     
 </head>
 
@@ -11,9 +12,7 @@
     <div class="main-content">
         {{>header}}
 
-        {{!-- <img src="/images/back.jpg" alt="Background image" class="back-image"> --}}
-
-        <p>Enter location's name or it's pincode</p>
+        <p>Enter location or it's pincode.</p>
 
         <form action="">
             <input type="text" placeholder="Enter Location">
@@ -21,13 +20,13 @@
         </form>
         
         <div class="data-display">
-            <p id="time"></p>
             <p id="name"></p>
-            <p id="error-msg"></p>
+            <p id="time"></p>
             <p id="weather-cond"></p>
             <p id="temp"></p>
             <p id="humidity"></p>
             <p id="wind-speed"></p>
+            <p id="error-msg"></p>
         </div>
 
     </div>

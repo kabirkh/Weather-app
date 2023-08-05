@@ -4,11 +4,22 @@
     <title>About</title>
     <link rel="icon" href="/images/weather.png">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   </head>
   <body>
     <div class="main-content">
         {{>header}}
-        <img class="portrait" src="./images/aboutImage.png">
+        <p>
+          This is a Weather App made using Node.js, Express.js, Handlebars and CSS.
+          <br>
+          It uses <a href="https://geocode.maps.co/">Geocoding API</a> and also <a href="https://www.weatherapi.com/">Weather API</a> to collect all the data. 
+          <br>
+          You need to be connected to internet inorder to use this application.
+        </p>
+        <h4>Geocoding API : </h4>
+        <img src="/images/geocodeIMG.png" alt="Geocoding API image here">
+        <h4>Weather API :</h4>
+        <img src="/images/weatherIMG.png" alt="Weather API image here">
     </div>
     
     {{>footer}}

@@ -27,14 +27,7 @@ app.get("", (req, res) => {
 });
 app.get("/about", (req, res) => {
   res.render("about", {
-    title: "About Me",
-    name: "Kabir",
-  });
-});
-app.get("/help", (req, res) => {
-  res.render("help", {
-    title: "Help Page",
-    text: "Some text",
+    title: "About",
     name: "Kabir",
   });
 });

@@ -25,13 +25,6 @@ const weather = (lat, lon, name, callback) => {
           wind_speed: body.current.wind_kph,
           wind_direction: body.current.wind_dir,
         }
-        // "Condition here is " +
-        //   body.current.condition.text +
-        //   ". It is currently " +
-        //   body.current.temp_c +
-        //   " degrees out. It feels like " +
-        //   body.current.feelslike_c +
-        //   " degrees out."+body.current.humidity+", "+body.current.wind_kph
       );
     }
   });
