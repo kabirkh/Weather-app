@@ -1,11 +1,10 @@
 const path = require("path");
 const express = require("express");
 const hbs = require("hbs");
-const { log } = require("console");
 const geocode = require("./utils/geocode");
 const weather = require("./utils/weather");
 
-//Dfine path for Exress config
+//Define path for Exress config
 const app = express();
 const publicDirectoryPath = path.join(__dirname, "../public");
 const viewPath = path.join(__dirname, "../templates/views");
