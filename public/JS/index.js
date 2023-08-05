@@ -22,7 +22,7 @@ weatherForm.addEventListener("submit", (e) => {
   timeMsg.textContent = "";
   nameMsg.textContent = "";
 
-  fetch("http://localhost:3000/weather?address=" + location).then(
+  fetch("http://weather-app-kabirkh.onrender.com/weather?address=" + location).then(
     (response) => {
       response.json().then((data) => {
         if (data.error) {
